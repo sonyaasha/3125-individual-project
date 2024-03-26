@@ -30,11 +30,12 @@ The example above is the way to access data by year. By running the following sn
 
 To answer some questions, it is required to combine the data from [Sea Ice Extent](https://www.statista.com/statistics/1299082/northern-hemisphere-sea-ice-extent/) and [Temperature Anomalies](https://www.statista.com/statistics/224893/land-and-ocean-temperature-anomalies-based-on-temperature-departure/), therefore, we create lists to store the necessary information, and then parse the data into a Pandas DataFrame:
 
-`model_year.append(year)`
-`model_temp_anomaly.append(temp_anom_2023)`
-`model_average_sea_extent.append`
-`(average_sea_ice_extent_2023)`
-`data = pd.DataFrame({'Year': model_year, 'Temperature Anomaly': model_temp_anomaly, 'Sea Ice Extent': model_average_sea_extent})`
+```
+model_year.append(year)
+model_temp_anomaly.append(temp_anom_2023)
+model_average_sea_extent.append(average_sea_ice_extent_2023)
+data = pd.DataFrame({'Year': model_year, 'Temperature Anomaly': model_temp_anomaly, 'Sea Ice Extent': model_average_sea_extent})
+```
 
 ## Methods
 #### Tools:
