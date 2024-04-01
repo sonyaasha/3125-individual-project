@@ -99,13 +99,11 @@ Linear regression was chosen for this question because the question asks to pred
 ## Results
 
 ### 1. How have the anomalies in temperature impacted the sea ice extent? What is the predicted sea ice extent in 2030?
-
 The temperature anomalies have drastically impacted the sea ice extent. As temperature anomalies increase and shift farther away from the accepted average, the amount of sea ice extent decreases, which means more of the sea ice is melting, disrupting the appropriate water circulation. The predicted value of sea ice extent in 2030 is 10.76
 
 ![Temperature Anomalies VS Sea Ice Extent](./graph/temp-ice.png)
 
 ### 2. What effect has flooding have on the economy in China? And how drastic was that effect?
-
 On average, in 2022, flooding has contributed to about 69.85% of economic loss in China. 
 
 ![Economic Loss in China](./graph/economic-loss.png)
@@ -130,33 +128,23 @@ After calculating the average for these three years, 2016, 2020, and 2021, it is
 
 ### 3. What countries have showcased over 70% of support for climate emergency action? And did that support result in action? 
 There are 11 countries from the [Public Support](https://www.statista.com/statistics/1201071/climate-emergency-public-support-globally-by-country/) dataset that have showcased over 70% support for climate emergency action. These countries are:
-1. Greece
-2. South Korea
-3. Italy
-4. Japan
+1. Germany
+2. Sweden
+3. UK
+4. Netherlands
 5. France
-6. Hungary
-7. Spain
-8. Netherlands
-9. UK
-10. Belgium
-11. Germany
-12. Australia
-13. Sweden
-14. Poland
-15. Canada
-16. Singapore
-17. USA
-18. Israel
-19. Malaysia
+6. Spain
+7. Hungary
+8. Belgium
+9. Italy
+10. Poland
+11. Greece
 
 To showcase whether the support of those countries has resulted into action, we can view the plot below:
 
 ![Support](./graph/support-green-bonds.png)
 
-Thye scatter plot represents the data of percentage support vs the amount of green bonds contributed by each country. Green bonds are funds issued to support environmental projects. Therefore, the graph illustrates how much countries with over 70% climate action support have contributed to projects that promote environmental awareness and/or positively impact the environment. 
-
-We can see that Greece, which has over 80% public support, has contributed onle one green bond. However, we should also take other factors, like population, into the account. Nonetheless, the scatter plot illustrates that not every country that has the public support has actually developed a system of financial funding for green bonds.
+Thye scatter plot represents the data of percentage support vs the amount of green bonds contributed by each country.
 
 ## Discussion
 
@@ -167,7 +155,11 @@ Sea ice helps regulate exchanges of heat, moisture, and salinity in the polar oc
 ### 2. What effect has flooding have on the economy in China? And how drastic was that effect?
 
 ### 3. What countries have showcased over 70% of support for climate emergency action? And did that support result in action? 
+![Support](./graph/support-green-bonds.png)
 
+We can see that Greece, which has over 80% public support, has contributed onle one green bond. However, we should also take other factors, like population, into the account. Nonetheless, the scatter plot illustrates that not every country that has the public support has actually developed a system of financial funding for green bonds.
+
+Green bonds are funds issued to support environmental projects. Therefore, the graph illustrates how much countries with over 70% climate action support have contributed to projects that promote environmental awareness and/or positively impact the environment. 
 
 ## References
 - https://oceanservice.noaa.gov/facts/sea-ice-climate.html#:~:text=Changes%20in%20the%20amount%20of,to%20climate%20change%20on%20Earth.
