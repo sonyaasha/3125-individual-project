@@ -18,7 +18,7 @@ The data includes the calculated statistics from 1900s to 2023.
 
 Before utilizing the data, the excel files were modified for ease of use in the analysis. For example, overview pages were eliminated and some columns were shifted to provide a more comprehensive view of the data. Some features for the unnecessery years were modified to fit requirements of the analysis.
 
-### Data access preview:
+#### Data access preview
 
 `sea_ice_extent_data = pd.read_excel("northern-hemisphere-sea-ice-extent-per-month-1980-2023.xlsx")`
 
