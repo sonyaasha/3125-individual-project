@@ -98,4 +98,22 @@ Linear regression was chosen for this question because the question asks to pred
 
 ## Results
 
+### 1. How have the anomalies in temperature impacted the sea ice extent? What is the predicted sea ice extent in 2030?
+
+The temperature anomalies have drastically impacted the sea ice extent. As temperature anomalies increase and shift farther away from the accepted average, the amount of sea ice extent decreases, which means more of the sea ice is melting, disrupting the appropriate water circulation. The predicted value of sea ice extent in 2030 is 10.76
+
+![Temperature Anomalies VS Sea Ice Extent](./graph/temp-ice.png)
+
+### 2. What effect has flooding have on the economy in China? And how drastic was that effect?
+
+### 3. What countries have showcased over 70% of support for climate emergency action? And did that support result in action? 
+
 ## Discussion
+
+### 1. How have the anomalies in temperature impacted the sea ice extent? What is the predicted sea ice extent in 2030?
+
+Sea ice helps regulate exchanges of heat, moisture, and salinity in the polar oceans.
+
+### 2. What effect has flooding have on the economy in China? And how drastic was that effect?
+
+### 3. What countries have showcased over 70% of support for climate emergency action? And did that support result in action? 
