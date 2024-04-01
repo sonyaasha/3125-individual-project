@@ -129,7 +129,34 @@ After calculating the average for these three years, 2016, 2020, and 2021, it is
 
 
 ### 3. What countries have showcased over 70% of support for climate emergency action? And did that support result in action? 
+There are 11 countries from the [Public Support](https://www.statista.com/statistics/1201071/climate-emergency-public-support-globally-by-country/) dataset that have showcased over 70% support for climate emergency action. These countries are:
+1. Greece
+2. South Korea
+3. Italy
+4. Japan
+5. France
+6. Hungary
+7. Spain
+8. Netherlands
+9. UK
+10. Belgium
+11. Germany
+12. Australia
+13. Sweden
+14. Poland
+15. Canada
+16. Singapore
+17. USA
+18. Israel
+19. Malaysia
 
+To showcase whether the support of those countries has resulted into action, we can view the plot below:
+
+![Support](./graph/support-green-bonds.png)
+
+Thye scatter plot represents the data of percentage support vs the amount of green bonds contributed by each country. Green bonds are funds issued to support environmental projects. Therefore, the graph illustrates how much countries with over 70% climate action support have contributed to projects that promote environmental awareness and/or positively impact the environment. 
+
+We can see that Greece, which has over 80% public support, has contributed onle one green bond. However, we should also take other factors, like population, into the account. Nonetheless, the scatter plot illustrates that not every country that has the public support has actually developed a system of financial funding for green bonds.
 
 ## Discussion
 
