@@ -19,8 +19,8 @@ Three questions were taken into consideration and answered to further the object
 Most data comes from Statista datasets from the following sources:
 -  [Sea Ice Extent](https://www.statista.com/statistics/1299082/northern-hemisphere-sea-ice-extent/)
 -  [Temperature Anomalies](https://www.statista.com/statistics/224893/land-and-ocean-temperature-anomalies-based-on-temperature-departure/)
-- [Economic Loss from Floods in China 2022](https://www.statista.com/statistics/1118042/china-economic-loss-from-natural-disasters/)
-- [Weather Catastrophes Causing Economic Losses Globally](https://www.statista.com/statistics/818411/weather-catastrophes-causing-economic-losses-globally/)
+- [Economic Loss from Natural Disasters in China 2022](https://www.statista.com/statistics/1118042/china-economic-loss-from-natural-disasters/)
+- [Economic Losses due to Flooding](https://www.statista.com/statistics/1413779/largest-floods-economic-damage-worldwide/)
 -  [Public Support](https://www.statista.com/statistics/1201071/climate-emergency-public-support-globally-by-country/)
 - [Green Bonds](https://www.statista.com/statistics/1090928/green-bonds-issuance-volume-europe/#statisticContainer)
 
@@ -28,7 +28,7 @@ The data includes the calculated statistics from 1900s to 2023.
 
 Before utilizing the data, the excel files were modified for ease of use in the analysis. For example, overview pages were eliminated and some columns were shifted to provide a more comprehensive view of the data. Some features for the unnecessery years were modified to fit requirements of the analysis.
 
-For the dataset [Economic Loss from Floods in China 2022](https://www.statista.com/statistics/1118042/china-economic-loss-from-natural-disasters/), the yuan data was converted to usd, so that the losses could be used in camparison with other datasets that are in usd. Used conversion rates as of April 1, 2023.
+For the dataset [Economic Losses due to Flooding](https://www.statista.com/statistics/1413779/largest-floods-economic-damage-worldwide/), the yuan data was converted to usd, so that the losses could be used in camparison with other datasets that are in usd. Used conversion rates as of April 1, 2023.
 
 #### Data access preview
 
@@ -106,7 +106,30 @@ The temperature anomalies have drastically impacted the sea ice extent. As tempe
 
 ### 2. What effect has flooding have on the economy in China? And how drastic was that effect?
 
+On average, in 2022, flooding has contributed to about 69.85% of economic loss in China. 
+
+![Economic Loss in China](./graph/economic-loss.png)
+
+The chosen years are 2016, 2020, and 2021 because these years were present in both datasets, [Economic Loss from Floods in China 2022](https://www.statista.com/statistics/1118042/china-economic-loss-from-natural-disasters/) and [Economic Losses due to Flooding](https://www.statista.com/statistics/1413779/largest-floods-economic-damage-worldwide/). The blue color represents the total economic loss in China for the given year, while the orange color is the economic loss due to floods. 
+
+```
+percent_2016 = round(data_2016[0]/data_2016[1]*100, 2)
+percent_2020 = round(data_2020[0]/data_2020[1]*100, 2)
+percent_2021 = round(data_2021[0]/data_2021[1]*100,2)
+
+percent_arr = [percent_2016, percent_2020, percent_2021]
+
+sum_per = 0
+for percent in percent_arr:
+    sum_per += percent
+average_percent = round(sum_per / len(percent_arr), 2)
+```
+
+After calculating the average for these three years, 2016, 2020, and 2021, it is given that about 70% economic loss was due to floods.
+
+
 ### 3. What countries have showcased over 70% of support for climate emergency action? And did that support result in action? 
+
 
 ## Discussion
 
@@ -117,3 +140,8 @@ Sea ice helps regulate exchanges of heat, moisture, and salinity in the polar oc
 ### 2. What effect has flooding have on the economy in China? And how drastic was that effect?
 
 ### 3. What countries have showcased over 70% of support for climate emergency action? And did that support result in action? 
+
+
+## References
+- https://oceanservice.noaa.gov/facts/sea-ice-climate.html#:~:text=Changes%20in%20the%20amount%20of,to%20climate%20change%20on%20Earth.
+- https://nsidc.org/learn/parts-cryosphere/sea-ice/why-sea-ice-matters#:~:text=Sea%20ice%20helps%20regulate%20exchanges,ocean%20to%20atmosphere%20in%20winter.
