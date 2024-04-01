@@ -106,7 +106,7 @@ The temperature anomalies have drastically impacted the sea ice extent. As tempe
 ### 2. What effect has flooding have on the economy in China? And how drastic was that effect?
 On average, in 2022, flooding has contributed to about 69.85% of economic loss in China. 
 
-![Economic Loss in China](./graph/economic-loss.png)
+![Economic Loss in China](./graph/economic-loss-flood.png)
 
 The chosen years are 2016, 2020, and 2021 because these years were present in both datasets, [Economic Loss from Floods in China 2022](https://www.statista.com/statistics/1118042/china-economic-loss-from-natural-disasters/) and [Economic Losses due to Flooding](https://www.statista.com/statistics/1413779/largest-floods-economic-damage-worldwide/). The blue color represents the total economic loss in China for the given year, while the orange color is the economic loss due to floods. 
 
