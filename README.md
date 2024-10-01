@@ -1,7 +1,6 @@
 # Global Climate Change
-#### 3125 Individual Project
+#### Individual Project
 Sofia Toropova
-toropovas@wit.edu
 
 
 ## Introduction
